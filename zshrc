@@ -23,6 +23,9 @@ alias ls='ls -G'
 # Claude Code alias
 alias claude='claude --dangerously-skip-permissions'
 
+# Fix bracketed paste
+unset zle_bracketed_paste
+
 # Better history
 HISTSIZE=10000
 SAVEHIST=10000
